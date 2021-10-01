@@ -78,7 +78,7 @@ int *pop(int *stack, int *top) {
 }
 
 void display(int *stack, int top) {
-    printf("\n Stack Content: ");
+    printf("\n Stack Content:");
     for ( int i = top - 1; i >= 0; i-- )
         printf(" %d,", stack[i]);
 }
