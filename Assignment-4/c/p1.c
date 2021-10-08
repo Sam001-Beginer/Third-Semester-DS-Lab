@@ -6,15 +6,15 @@ int top = -1;
 char s[MAX];
 void push(char a)
 {
-      s[top] = a;
-      top++;
+    s[top] = a;
+    top++;
 }
 void pop()
 {
     if (top == -1)
     {
-            printf("expression is invalid\n");
-            exit(0);
+        printf("expression is invalid\n");
+        exit(0);
     }
     else
     top--;
