@@ -21,8 +21,8 @@ void pop()
 }
 void check()
 {
-	char a[MAX];
-	printf("\nEnter expression : ");
+    char a[MAX];
+    printf("\nEnter expression : ");
     scanf("%s",a);
     for (int i=0;a[i]!='\0';i++)
     {
