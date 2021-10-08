@@ -1,7 +1,0 @@
-1. Iterate over the whole Equation
-2. If a opening bracket is encountered then push it in the stack
-3. If the stack goes empty return false
-4. If a closing bracket is encountered
-    a. Check the preference of the bracket
-    b. If a diferent type of bracket reveals that is not same as the top opening bracket return false
-5. After all operation if the stack is empty return true else return false
